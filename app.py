@@ -14,7 +14,7 @@ import streamlit as st
 
 # Kéo xuống dưới các lệnh import cũ của bạn, dán thêm 2 dòng này:
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Pinecone
+from langchain_pinecone import PineconeVectorStore
 
 #Chuẩn hóa latex cho Pandoc
 def chuan_hoa_latex_cho_pandoc(text):
