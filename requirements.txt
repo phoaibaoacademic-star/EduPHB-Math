@@ -1,0 +1,9 @@
+streamlit
+python-docx
+pypandoc
+requests
+langchain
+langchain-community
+chromadb
+sentence-transformers
+docx2txt
