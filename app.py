@@ -1,4 +1,4 @@
-from pydash import tap
+
 import streamlit as st
 import docx
 from docx.shared import Pt
