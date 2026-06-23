@@ -1,0 +1,15 @@
+[theme]
+# Màu chủ đạo (Nút bấm, thanh trượt...) - Đang để màu Xanh dương đậm chuyên nghiệp
+primaryColor = "#2E66DD"
+
+# Màu nền chính của toàn bộ trang web - Xám nhạt dịu mắt
+backgroundColor = "#F4F6F9"
+
+# Màu nền phụ (Thanh menu bên trái - Sidebar) - Trắng tinh
+secondaryBackgroundColor = "#FFFFFF"
+
+# Màu chữ chính - Xanh đen đậm (Mềm mại hơn màu đen tuyền)
+textColor = "#1E293B"
+
+# Font chữ
+font = "sans serif"
