@@ -52,11 +52,11 @@ def load_vector_db():
     db = Pinecone(persist_directory="./pinecone_db_giao_an", embedding_function=embeddings)
     return db
 
-#def lay_context_tu_db(query, db):
+def lay_context_tu_db(query, db):
     # Tìm 3 đoạn văn bản giống nhất với yêu cầu
-   # docs = db.similarity_search(query, k=3)
-   # context = "\n\n---\n\n".join([doc.page_content for doc in docs])
-   # return context
+    docs = db.similarity_search(query, k=3)
+   context = "\n\n---\n\n".join([doc.page_content for doc in docs])
+   return context
 
 # Khởi động bộ não khi bật web
 #vector_db = load_vector_db()
